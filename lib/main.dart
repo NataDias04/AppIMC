@@ -82,7 +82,6 @@ class TelaResultado extends StatelessWidget {
 
   TelaResultado({required this.peso, required this.altura});
 
-  // Método para definir a cor de acordo com a classificação
   Color _corClassificacao(String classificacao) {
     switch (classificacao) {
       case 'Abaixo do peso':
